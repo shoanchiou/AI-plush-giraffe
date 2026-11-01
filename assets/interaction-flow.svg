@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1270" viewBox="0 0 1800 1270"><defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,3 L0,6 Z" fill="#087F83"/></marker></defs>
+<rect x="0" y="0" width="1800" height="1270" rx="0" fill="#F4F7F6" stroke="none"/>
+<text x="66" y="66" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="21" font-weight="700" fill="#087F83">BREAKPOINT  /  斷點</text>
+<text x="66" y="133" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="43" font-weight="700" fill="#183941">留下斷點，再從斷點繼續</text>
+<text x="66" y="177" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#537078">使用者確認才儲存；突然離席時保留最後一次確認的紀錄</text>
+<rect x="65" y="235" width="500" height="200" rx="20" fill="#FFFFFF" stroke="#D9E5E3"/>
+<rect x="65" y="235" width="7" height="200" rx="2" fill="#087F83" stroke="none"/>
+<text x="93" y="285" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="28" font-weight="700" fill="#087F83">01  按住口述</text>
+<text x="93" y="331" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">任務：寫報告</text>
+<text x="93" y="368" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">進度：整理到研究動機</text>
+<text x="93" y="405" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">下一步：找兩篇文獻</text>
+<rect x="650" y="235" width="500" height="200" rx="20" fill="#FFFFFF" stroke="#D9E5E3"/>
+<rect x="650" y="235" width="7" height="200" rx="2" fill="#087F83" stroke="none"/>
+<text x="678" y="285" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="28" font-weight="700" fill="#087F83">02  手機整理與讀回</text>
+<text x="678" y="331" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">Gemma 轉錄並整理三個欄位</text>
+<text x="678" y="368" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">手機 TTS 音訊回送玩偶</text>
+<text x="678" y="405" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">不清楚就追問，不補寫進度</text>
+<rect x="1235" y="235" width="500" height="200" rx="20" fill="#FFFFFF" stroke="#D9E5E3"/>
+<rect x="1235" y="235" width="7" height="200" rx="2" fill="#087F83" stroke="none"/>
+<text x="1263" y="285" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="28" font-weight="700" fill="#087F83">03  短按確認</text>
+<text x="1263" y="331" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">確認後才取代正式紀錄</text>
+<text x="1263" y="368" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">按住可重新口述</text>
+<text x="1263" y="405" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">30 秒未確認：取消草稿</text>
+<line x1="570" y1="335" x2="642" y2="335" stroke="#087F83" stroke-width="4" marker-end="url(#arrow)"/>
+<line x1="1155" y1="335" x2="1227" y2="335" stroke="#087F83" stroke-width="4" marker-end="url(#arrow)"/>
+<line x1="1485" y1="442" x2="1485" y2="535" stroke="#087F83" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="1235" y="555" width="500" height="205" rx="20" fill="#FFFFFF" stroke="#D9E5E3"/>
+<rect x="1235" y="555" width="7" height="205" rx="2" fill="#087F83" stroke="none"/>
+<text x="1263" y="605" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="28" font-weight="700" fill="#087F83">04  離席事件</text>
+<text x="1263" y="651" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">ROI 連續無人 → 記錄離席</text>
+<text x="1263" y="688" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">沒有新口述：仍保留舊斷點</text>
+<text x="1263" y="725" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">不推論原因或實際工作進度</text>
+<rect x="650" y="555" width="500" height="205" rx="20" fill="#FFFFFF" stroke="#D9E5E3"/>
+<rect x="650" y="555" width="7" height="205" rx="2" fill="#087F83" stroke="none"/>
+<text x="678" y="605" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="28" font-weight="700" fill="#087F83">05  返回先亮燈</text>
+<text x="678" y="651" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">ROI 連續有人 → 待續接</text>
+<text x="678" y="688" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">先顯示青色燈號</text>
+<text x="678" y="725" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">不自動出聲打斷使用者</text>
+<rect x="65" y="555" width="500" height="205" rx="20" fill="#FFFFFF" stroke="#D9E5E3"/>
+<rect x="65" y="555" width="7" height="205" rx="2" fill="#087F83" stroke="none"/>
+<text x="93" y="605" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="28" font-weight="700" fill="#087F83">06  短按接回</text>
+<text x="93" y="651" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">讀出最後確認的工作位置</text>
+<text x="93" y="688" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">帶出保存時間與下一步</text>
+<text x="93" y="725" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">繼續工作，或按住更新</text>
+<line x1="1227" y1="655" x2="1157" y2="655" stroke="#087F83" stroke-width="4" marker-end="url(#arrow)"/>
+<line x1="642" y1="655" x2="572" y2="655" stroke="#087F83" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="65" y="840" width="1670" height="160" rx="20" fill="#E5F0ED" stroke="none"/>
+<text x="95" y="888" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="28" font-weight="700" fill="#087F83">結束任務</text>
+<text x="95" y="937" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="28" font-weight="400" fill="#183941">按住說「任務完成」→ 玩偶讀回 → 短按確認 → 結束活動任務</text>
+<rect x="65" y="1030" width="1670" height="135" rx="20" fill="#FFFFFF" stroke="none"/>
+<text x="95" y="1073" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="25" font-weight="400" fill="#183941">沒有活動任務：不產生回座續接提示。處理或播放中：不接受新錄音。</text>
+<text x="95" y="1118" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="25" font-weight="400" fill="#537078">錄音上限 20 秒；草稿取消／確認後刪除錄音暫存；錯誤不覆寫原任務。</text>
+<text x="66" y="1231" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="21" font-weight="400" fill="#537078">互動規劃圖  ·  座位門檻須實測校準，離席不等於分心</text>
+</svg>

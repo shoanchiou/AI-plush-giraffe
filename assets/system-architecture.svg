@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1270" viewBox="0 0 1800 1270"><defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,3 L0,6 Z" fill="#087F83"/></marker></defs>
+<rect x="0" y="0" width="1800" height="1270" rx="0" fill="#F4F7F6" stroke="none"/>
+<text x="66" y="66" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="21" font-weight="700" fill="#087F83">BREAKPOINT  /  斷點</text>
+<text x="66" y="133" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="43" font-weight="700" fill="#183941">感測在玩偶，模型與任務記憶在手機</text>
+<text x="66" y="177" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#537078">單人・固定座位・一項活動任務  |  Android App 維持前景，同一區網</text>
+<rect x="60" y="225" width="760" height="785" rx="24" fill="#E5F0ED" stroke="none"/>
+<rect x="980" y="225" width="760" height="785" rx="24" fill="#EAF0F6" stroke="none"/>
+<text x="90" y="279" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="31" font-weight="700" fill="#087F83">01  長頸鹿玩偶｜AMB82-mini</text>
+<text x="1010" y="279" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="31" font-weight="700" fill="#3C6280">02  Android 專題 App</text>
+<rect x="90" y="315" width="700" height="170" rx="20" fill="#FFFFFF" stroke="#D9E5E3"/>
+<rect x="90" y="315" width="7" height="170" rx="2" fill="#087F83" stroke="none"/>
+<text x="118" y="365" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="28" font-weight="700" fill="#087F83">板端視覺：只判斷座位區有無人</text>
+<text x="118" y="411" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">相機 → person 模型 → ROI 與時間過濾</text>
+<text x="118" y="448" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">只傳離席／返回事件，不傳攝影機影像</text>
+<rect x="90" y="515" width="700" height="185" rx="20" fill="#FFFFFF" stroke="#D9E5E3"/>
+<rect x="90" y="515" width="7" height="185" rx="2" fill="#087F83" stroke="none"/>
+<text x="118" y="565" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="28" font-weight="700" fill="#087F83">實體操作與音訊</text>
+<text x="118" y="611" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">按住錄音，放開結束；最長 20 秒</text>
+<text x="118" y="648" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">按鍵確認、狀態燈、音訊暫存與播放</text>
+<text x="118" y="685" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">錄音／播放／視覺分時調度</text>
+<rect x="90" y="730" width="700" height="225" rx="20" fill="#FFFFFF" stroke="#D9E5E3"/>
+<rect x="90" y="730" width="7" height="225" rx="2" fill="#087F83" stroke="none"/>
+<text x="118" y="780" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="28" font-weight="700" fill="#087F83">區網裝置介面（自行開發）</text>
+<text x="118" y="826" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">事件序號與裝置狀態</text>
+<text x="118" y="863" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">錄音檔供手機下載</text>
+<text x="118" y="900" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">接收狀態命令與播放音訊</text>
+<text x="118" y="937" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">白名單命令；不開放任意 GPIO</text>
+<rect x="1010" y="315" width="700" height="170" rx="20" fill="#FFFFFF" stroke="#D9E5E3"/>
+<rect x="1010" y="315" width="7" height="170" rx="2" fill="#3C6280" stroke="none"/>
+<text x="1038" y="365" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="28" font-weight="700" fill="#3C6280">Gemma 4 E2B｜LiteRT-LM</text>
+<text x="1038" y="411" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">短語音轉錄 → 整理任務／進度／下一步</text>
+<text x="1038" y="448" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">未提供資訊不補寫；使用者確認後保存</text>
+<rect x="1010" y="515" width="700" height="185" rx="20" fill="#FFFFFF" stroke="#D9E5E3"/>
+<rect x="1010" y="515" width="7" height="185" rx="2" fill="#3C6280" stroke="none"/>
+<text x="1038" y="565" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="28" font-weight="700" fill="#3C6280">任務資料與確定性流程</text>
+<text x="1038" y="611" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">一項活動任務＋一份待確認草稿</text>
+<text x="1038" y="648" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">正式文字紀錄與確認時間存在手機</text>
+<text x="1038" y="685" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">離席、返回與保存由程式控制</text>
+<rect x="1010" y="730" width="700" height="225" rx="20" fill="#FFFFFF" stroke="#D9E5E3"/>
+<rect x="1010" y="730" width="7" height="225" rx="2" fill="#3C6280" stroke="none"/>
+<text x="1038" y="780" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="28" font-weight="700" fill="#3C6280">Android TTS 與 MCU 通訊</text>
+<text x="1038" y="826" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">手機主動輪詢事件、取得錄音</text>
+<text x="1038" y="863" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">TTS → 音訊格式轉換 → 回送玩偶</text>
+<text x="1038" y="900" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">回座先亮燈；短按才播放斷點</text>
+<text x="1038" y="937" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">斷線／失敗保留最後確認紀錄</text>
+<line x1="824" y1="405" x2="976" y2="405" stroke="#087F83" stroke-width="4" marker-end="url(#arrow)"/>
+<text x="846" y="357" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="22" font-weight="400" fill="#183941">事件</text>
+<text x="846" y="387" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="22" font-weight="400" fill="#183941">錄音</text>
+<line x1="976" y1="815" x2="824" y2="815" stroke="#087F83" stroke-width="4" marker-end="url(#arrow)"/>
+<text x="842" y="867" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="22" font-weight="400" fill="#183941">燈號</text>
+<text x="842" y="897" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="22" font-weight="400" fill="#183941">音訊</text>
+<rect x="60" y="1040" width="1680" height="153" rx="18" fill="#FFFFFF" stroke="none"/>
+<text x="90" y="1087" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="27" font-weight="700" fill="#183941">影像留板端；按鍵才錄音；手機不讀取電腦畫面。</text>
+<text x="90" y="1131" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="25" font-weight="400" fill="#537078">Gallery 用於先驗證模型；任務 App、通訊與音訊串接需自行開發。</text>
+<text x="66" y="1241" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="21" font-weight="400" fill="#537078">架構規劃圖  ·  不表示已完成硬體整合或效能驗證</text>
+</svg>

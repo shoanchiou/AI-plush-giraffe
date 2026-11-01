@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1650" viewBox="0 0 2000 1650"><defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,3 L0,6 Z" fill="#087F83"/></marker></defs>
+<rect x="0" y="0" width="2000" height="1650" rx="0" fill="#F4F7F6" stroke="none"/>
+<text x="66" y="66" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="21" font-weight="700" fill="#087F83">BREAKPOINT  /  斷點</text>
+<text x="66" y="133" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="43" font-weight="700" fill="#183941">GPIO 與音訊接線規劃</text>
+<text x="66" y="177" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#537078">D4 等為 Arduino 數位編號，非排針第 4 腳；3.3V 邏輯與 USB 5V 供電分開</text>
+<rect x="70" y="235" width="535" height="240" rx="20" fill="#FFFFFF" stroke="#D9E5E3"/>
+<rect x="70" y="235" width="7" height="240" rx="2" fill="#087F83" stroke="none"/>
+<text x="98" y="285" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="28" font-weight="700" fill="#087F83">按鍵與三色燈</text>
+<text x="98" y="331" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">常開按鍵 → D4／PF11 與 GND</text>
+<text x="98" y="368" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">啟用內部上拉；按下為 LOW</text>
+<text x="98" y="405" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">RGB：共陰極接 GND</text>
+<text x="98" y="442" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">每個色彩陽極各串 1 kΩ</text>
+<rect x="750" y="235" width="535" height="240" rx="20" fill="#FFFFFF" stroke="#D9E5E3"/>
+<rect x="750" y="235" width="7" height="240" rx="2" fill="#087F83" stroke="none"/>
+<text x="778" y="285" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="28" font-weight="700" fill="#087F83">AMB82-mini</text>
+<text x="778" y="331" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">D4／PF11：按鍵輸入</text>
+<text x="778" y="368" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">D5／PF12：R</text>
+<text x="778" y="405" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">D6／PF13：G</text>
+<text x="778" y="442" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">D7／PF14：B</text>
+<line x1="610" y1="355" x2="742" y2="355" stroke="#087F83" stroke-width="4" marker-end="url(#arrow)"/>
+<text x="615" y="304" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="21" font-weight="400" fill="#183941">3.3V</text>
+<text x="615" y="335" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="21" font-weight="400" fill="#183941">GPIO</text>
+<rect x="70" y="520" width="1215" height="240" rx="20" fill="#FFFFFF" stroke="#D9E5E3"/>
+<text x="100" y="568" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="28" font-weight="700" fill="#087F83">RGB 低電流指示（每一路分別串聯）</text>
+<text x="100" y="625" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="27" font-weight="400" fill="#183941">D5／PF12  ──  1 kΩ  ──  R 陽極</text>
+<text x="100" y="669" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="27" font-weight="400" fill="#183941">D6／PF13  ──  1 kΩ  ──  G 陽極</text>
+<text x="100" y="713" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="27" font-weight="400" fill="#183941">D7／PF14  ──  1 kΩ  ──  B 陽極</text>
+<text x="755" y="652" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="27" font-weight="400" fill="#183941">RGB 共陰極</text>
+<text x="755" y="700" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="27" font-weight="400" fill="#183941">→ 板端 GND</text>
+<rect x="1415" y="235" width="515" height="240" rx="20" fill="#FFFFFF" stroke="#D9E5E3"/>
+<rect x="1415" y="235" width="7" height="240" rx="2" fill="#087F83" stroke="none"/>
+<text x="1443" y="285" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="28" font-weight="700" fill="#087F83">既有板端介面</text>
+<text x="1443" y="331" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">相容攝影機與板載麥克風</text>
+<text x="1443" y="368" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">SD 插槽供暫存與模型設定</text>
+<text x="1443" y="405" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">依所用板件版本核對 pinmap</text>
+<text x="1443" y="442" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">USB、開孔及散熱須預留</text>
+<rect x="70" y="825" width="390" height="200" rx="20" fill="#FFFFFF" stroke="#D9E5E3"/>
+<rect x="70" y="825" width="7" height="200" rx="2" fill="#087F83" stroke="none"/>
+<text x="98" y="875" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="28" font-weight="700" fill="#087F83">板端類比音訊</text>
+<text x="98" y="921" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">AOUT（非 GPIO）</text>
+<text x="98" y="958" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">GND → 功放訊號 GND</text>
+<text x="98" y="995" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">音訊內容由韌體播放</text>
+<rect x="585" y="825" width="390" height="200" rx="20" fill="#FFFFFF" stroke="#D9E5E3"/>
+<rect x="585" y="825" width="7" height="200" rx="2" fill="#087F83" stroke="none"/>
+<text x="613" y="875" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="28" font-weight="700" fill="#087F83">輸入 AC 耦合</text>
+<text x="613" y="921" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">已有耦合的模組不重複加</text>
+<text x="613" y="958" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">裸晶片／EVB 參考 0.47 μF</text>
+<text x="613" y="995" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">依所選模組原理圖核對</text>
+<rect x="1100" y="825" width="390" height="200" rx="20" fill="#FFFFFF" stroke="#D9E5E3"/>
+<rect x="1100" y="825" width="7" height="200" rx="2" fill="#087F83" stroke="none"/>
+<text x="1128" y="875" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="28" font-weight="700" fill="#087F83">PAM8403 模組</text>
+<text x="1128" y="921" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">音訊 → IN_L</text>
+<text x="1128" y="958" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">電源 → 5V／GND</text>
+<text x="1128" y="995" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">只使用左聲道輸出</text>
+<rect x="1615" y="825" width="315" height="200" rx="20" fill="#FFFFFF" stroke="#D9E5E3"/>
+<rect x="1615" y="825" width="7" height="200" rx="2" fill="#087F83" stroke="none"/>
+<text x="1643" y="875" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="28" font-weight="700" fill="#087F83">小喇叭</text>
+<text x="1643" y="921" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">兩端跨 L+／L−</text>
+<text x="1643" y="958" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">兩端不接 GND</text>
+<text x="1643" y="995" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#183941">不併接左右輸出</text>
+<line x1="465" y1="925" x2="577" y2="925" stroke="#087F83" stroke-width="4" marker-end="url(#arrow)"/>
+<line x1="980" y1="925" x2="1092" y2="925" stroke="#087F83" stroke-width="4" marker-end="url(#arrow)"/>
+<line x1="1495" y1="925" x2="1607" y2="925" stroke="#087F83" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="70" y="1080" width="1860" height="285" rx="20" fill="#E5F0ED" stroke="none"/>
+<text x="100" y="1130" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="30" font-weight="700" fill="#087F83">電源：穩定 USB 5V，分成兩條供電支路</text>
+<text x="100" y="1188" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="28" font-weight="400" fill="#183941">支路 A  →  板端 Micro USB</text>
+<text x="100" y="1238" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="28" font-weight="400" fill="#183941">支路 B  →  功放模組 5V／GND</text>
+<text x="1030" y="1187" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="27" font-weight="400" fill="#183941">板端 GND 與功放訊號 GND 共地</text>
+<text x="1030" y="1237" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="27" font-weight="400" fill="#183941">功放不從 GPIO／板上 3.3V 腳取電</text>
+<text x="100" y="1315" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="25" font-weight="400" fill="#183941">先用低音量測試供電與音訊，再安裝玩偶外殼；不加入電池、馬達或伺服。</text>
+<rect x="70" y="1400" width="1860" height="135" rx="20" fill="#FFFFFF" stroke="none"/>
+<text x="100" y="1445" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="28" font-weight="700" fill="#183941">GPIO 不接 5V。功放 BTL 喇叭負端不是 GND。</text>
+<text x="100" y="1491" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="24" font-weight="400" fill="#537078">依據：Realtek 官方 pinmap／Getting Started；Diodes PAM8403 datasheet／EVB。</text>
+<text x="76" y="1607" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="22" font-weight="400" fill="#537078">設計連接圖，非排針實體位置圖  ·  完整腳位及音訊傳輸開發說明見 Architecture.md</text>
+</svg>
